@@ -1,0 +1,16 @@
+# Secrets and local environments
+backend/.env
+backend/.venv/
+
+# Generated data: recordings, databases, vector index (rebuildable)
+backend/data/
+
+# Python and Node build files
+__pycache__/
+*.pyc
+frontend/node_modules/
+frontend/dist/
+
+# Editor / OS
+.vscode/
+Thumbs.db
